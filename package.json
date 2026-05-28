@@ -3,8 +3,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
-  },
+    "build": "echo \"Skipping Vite build - static assets are already in public\""
+},
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0",
     "axios": "^1.7.4",
